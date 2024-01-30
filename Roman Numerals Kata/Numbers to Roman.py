@@ -86,3 +86,8 @@ Convert_number = Roman_number(user_roman)
 
 # Print the result of the conversion
 print(f"The numerical conversion of {user_roman} is: {Convert_number}")
+
+# Code Inspired by the following:
+# https://www.tutorialspoint.com/python-program-to-convert-integer-to-roman
+# https://www.w3resource.com/python-exercises/class-exercises/python-class-exercise-1.php
+# https://www.geeksforgeeks.org/python-program-to-convert-integer-to-roman/
