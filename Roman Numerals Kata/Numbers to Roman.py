@@ -1,6 +1,6 @@
 # Defining Function for Numbers to Roman with some input number
 def number_roman(num):
-    # Mapping numbers to there Roman counterparts
+    # Mapping numbers to there Roman counterparts using a dictionary
     num_to_Roman = {
         1000: 'M',
         900: 'CM',
@@ -32,7 +32,7 @@ def number_roman(num):
 
 
 def Roman_number(roman):
-    # Mapping roman charectors to there numerical counterparts
+    # Mapping roman charectors to there numerical counterparts using a dictionary3000
     roman_to_num = {
         'I': 1,
         'IV': 4,
@@ -78,7 +78,8 @@ convert_roman = number_roman(user_number)
 print(f"The Roman charectors of {user_number} is: {convert_roman}")
 
 # Ask the user for input of Roman number
-user_roman = input("Enter a Roman Number: ")
+user_roman = input(
+    "Enter a Roman Number(Please use only capital letters like MMM): ")
 
 # Convert the Roman numeral to numerical form
 Convert_number = Roman_number(user_roman)
